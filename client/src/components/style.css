@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.crawler-app {
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
