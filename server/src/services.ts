@@ -56,7 +56,7 @@ app.post('/crawl', (req: Request, res: Response) => {
     hasMore = { maxDepth: parseInt(maxDepth), maxLinks: parseInt(maxNumLink) }
 
     if (!visitedUrls.hasOwnProperty(startUrl)) myUrls.unshift(startUrl)
-
+    
     bfsCrawl().then(searchIsDone => {
         console.log(searchIsDone)
         res.send(visitedUrls);

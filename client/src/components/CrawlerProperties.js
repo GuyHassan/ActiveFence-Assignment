@@ -14,7 +14,6 @@ const CrawlerProperties = ({ setCrawlData }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (validateInputs()) {
-      setCrawlData('Waiting....')
       const url = 'http://localhost:3001'
       const response = await axios.post(`${url}/crawl`, crawlProperties);
       setCrawlData(response.data)
