@@ -1,2 +1,2 @@
-# ActiveFence-Project
-A project for an interview at ActiveFence
+# ActiveFence-Assignment
+A assignment for an interview at ActiveFence
